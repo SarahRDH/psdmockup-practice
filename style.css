@@ -1,0 +1,243 @@
+/* images
+https://www.dropbox.com/s/f98sqtx5ijgixjz/USERS.png?raw=1
+https://www.dropbox.com/s/0gyh3ftoligpn3j/tealbar.jpg?raw=1
+https://www.dropbox.com/s/fadybf32q4bxz49/SHOPPING_CART.jpg?raw=1
+https://www.dropbox.com/s/i79hswxk9wiote8/Rectangle_5_copy_2.png?raw=1
+https://www.dropbox.com/s/9zp8b4i198rp4ci/Rectangle_4.png?raw=1
+https://www.dropbox.com/s/zbrnplgorz41q1l/plant.jpg?raw=1
+https://www.dropbox.com/s/vahiradpevib0yv/MAGNIFYING_GLASS.jpg?raw=1
+https://www.dropbox.com/s/iu0d0e801u80ejb/keyboardlayers.jpg?raw=1
+https://www.dropbox.com/s/3y10il9v8b557pa/keyboard.jpg?raw=1
+https://www.dropbox.com/s/cgph3ez6rv3ogdt/jumboimg.jpg?raw=1
+https://www.dropbox.com/s/izfpv998b2krt6z/headphones.jpg?raw=1 
+https://www.dropbox.com/s/vzdjk7vv76v3y8d/superteamimg.jpg?raw=1 
+https://www.dropbox.com/s/mthcj9279sagxry/tealrectangle.jpg?raw=1 */
+/* fonts
+nav and logo Montserrat
+1st p Kaushan script
+h1 montserrat
+button montserrat
+01 02 03 04 montserrat bold 700
+intro work about contacts montserrat regular 400
+main p roboto 400 */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.jumbotron {
+    background-image: url("https://www.dropbox.com/s/cgph3ez6rv3ogdt/jumboimg.jpg?raw=1");
+    background-position: center;
+    max-width: 1920px;
+    height: auto;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+header p {
+    padding: 28px 495px 0px 362px;
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 358px;
+}
+
+header ul li {
+    padding: 40px 28px;
+    color: white;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+
+.intro-navs div p {
+    font-family: "Kaushan Script";
+font-size: 72px;
+font-weight: 400;
+padding: 134px 0px 0px 0px;
+margin: 0px;
+}
+
+.intro-navs div h1 {
+    font-family: Montserrat;
+font-size: 150px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 0px 0px 53px; 
+text-align: center;
+margin: 0px;
+}
+
+.intro-navs div hr {
+    width: 60px;
+height: 3px;
+background-color: #ffffff;
+margin: 0px;
+}
+
+.intro-navs div button {
+    width: 160px;
+height: 40px;
+border: 3px solid #ffffff;
+background-color: transparent;
+margin-top: 53px;
+margin-bottom: 180px;
+}
+
+button {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+color: white;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.hr-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pnav {
+    padding: 0px;
+    font-family: "Montserrat - Bold";
+font-size: 24px;
+font-weight: 700;
+}
+
+.second-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-nav ul li {
+    padding: 5px 200px 30px 0px;
+}
+
+
+
+span {
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title {
+    font-family: "Kaushan Script";
+font-size: 24px;
+font-weight: 400;
+margin: 0px;
+padding-top: 81px;
+padding-bottom: 10px;
+}
+
+.aboutus h2 {
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0px;
+padding-bottom: 20px;
+}
+
+.aboutus hr {
+    width: 60px;
+height: 3px;
+background-color: #f38181;
+}
+
+.description {
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+color: #999999;
+/* width: 954px;
+height: 39px; */
+padding: 20px 300px 0px 300px;
+text-align: center;
+}
+
+.aboutimg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 71px 140px 100px 140px;
+}
+
+.tealbar {
+    background-image: url("https://www.dropbox.com/s/mthcj9279sagxry/tealrectangle.jpg?raw=1");
+    
+}
+
+h3 {
+color: #ffffff;
+font-family: Montserrat;
+font-size: 72px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+
+.tealbar div p {
+color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.tealbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 200px 0px 200px;
+}
+
+.tealbar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*time stop at 3 hrs*/
+/*30min to extract and save files from psd and code html*/
+/*2.5 hrs coding CSS*/
